@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Rhyme Quest Kids",
+    "slug": "rhyme-quest-kids",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "scheme": "rhymequest",
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.devbhowmick.rhymequestkids"
+    },
+    "ios": {
+      "bundleIdentifier": "com.devbhowmick.rhymequestkids"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+  }
+}
