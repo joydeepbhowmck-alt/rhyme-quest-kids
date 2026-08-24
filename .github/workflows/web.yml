@@ -32,7 +32,7 @@ jobs:
         run: npm install --no-audit --no-fund
 
       - name: Install Expo Web dependencies
-        run: npx expo install react-dom react-native-web @expo/metro-runtime
+        run: npx expo install react-dom react-native-web @expo/metro-runtime expo-asset expo-font
 
       - name: Export Expo Web
         run: npx expo export --platform web
