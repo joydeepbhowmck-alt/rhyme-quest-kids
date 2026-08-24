@@ -31,8 +31,8 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Install Expo Web dependencies
-        run: npx expo install react-dom react-native-web @expo/metro-runtime
+      - name: Check Expo project
+        run: npx expo-doctor
 
       - name: Export Expo Web
         run: npx expo export --platform web
